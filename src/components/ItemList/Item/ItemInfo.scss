@@ -1,0 +1,43 @@
+@import '../../../styles/colors';
+
+.item-info{
+   margin-right: auto;
+
+   .item-info-name, .item-info-description, .item-info-price{
+      padding-block: 2.5px;
+   }
+
+   .item-info-name{
+      font-weight: 400;
+      font-size: 17px;
+   }
+
+   .item-info-description{
+      font-weight: 200;
+      font-style: italic;
+      font-size: 15px;
+   }
+
+   .item-info-price{
+      font-weight: 400;
+      color: $red;
+   }
+}
+
+@media (max-width: 500px){
+
+   .item-info{
+      .item-info-name{
+         font-size: 16px;
+      }
+
+      .item-info-description{
+         font-size: 13px;
+      }
+
+      .item-info-price{
+         font-size: 14.5px;
+      }
+   }
+
+}

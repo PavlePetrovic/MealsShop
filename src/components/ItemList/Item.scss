@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+
+.item{
+   display: flex;
+   width: 100%;
+   padding-block: 16px;
+   align-items: center;
+}
+
+.item-border{
+   border-bottom: 1px solid #dfdede;
+}
+
+.last-item{
+   border: none;
+}

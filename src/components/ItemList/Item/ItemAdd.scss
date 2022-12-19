@@ -1,0 +1,54 @@
+@import '../../../styles/colors';
+
+.item-add{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 6px;
+
+   label{
+      margin-right: 5px;
+      font-weight: 400;
+      font-size: 15px;
+   }
+
+   .item-add-input{
+      width: 40px;
+      border: 1px solid $border-gray;
+      border-radius: 3px;
+      padding-left: 3px;
+   }
+
+   .item-add-btn{
+      margin-top: 2px;
+      font-weight: 400;
+      border: none;
+      cursor: pointer;
+      background-color: $dark-blue;
+      color: $gray;
+      border-radius: 50px;
+      padding: 7px 26px;
+
+      &:hover{
+         transition: 0.2s;
+         outline: 1px solid $red;
+         color: $red;
+         background-color: transparent;  
+      }
+   }
+}
+
+@media (max-width: 500px){
+
+   .item-add{
+      label{
+         font-size: 14px;
+      }
+
+      .item-add-btn{
+         padding: 7px 23px;
+      }
+   }
+
+} 
+
